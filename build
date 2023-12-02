@@ -2,11 +2,9 @@ cc_library(
     name = "Engine Control",
     srcs = [
         "src/Engine_Control.h",
-        "src/REMgQ29tcG9uZW50.h",
-        "src/U2Vydm8gQ29tcG9uZW50.h"
     ],
     includes = [
-        "src",
+        "include",
     ],
     visibility = ["//visibility:public"],
 )
